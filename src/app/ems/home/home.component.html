@@ -1,0 +1,47 @@
+<!-- Check Number Prime or Not -->
+<md-card>
+  <h2>Check a number is prime or not</h2>
+  <md-grid-list cols="12" rowHeight="80px">
+    <md-grid-tile [colspan]="10">
+      <md-form-field>
+        <input type="number" mdInput placeholder="Enter Number" [(ngModel)]="primeText" required>
+      </md-form-field>
+      <p *ngIf="prime" class="success">{{prime}}</p>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="2">
+      <button md-raised-button color="primary" (click)="checkPrime()">Submit</button>
+    </md-grid-tile>
+  </md-grid-list>
+</md-card>
+
+<!-- Check Number Palindrome or Not -->
+<md-card>
+  <h2>Check a string is palindrome or not (Using API)</h2>
+  <md-grid-list cols="12" rowHeight="80px">
+    <md-grid-tile [colspan]="10">
+      <md-form-field>
+        <input type="text" mdInput placeholder="Enter String or Number" [(ngModel)]="palindromeText" required>
+      </md-form-field>
+      <p *ngIf="palindrome">{{palindrome}}</p>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="2">
+      <button md-raised-button color="primary" (click)="checkPalindrome()">Submit</button>
+    </md-grid-tile>
+  </md-grid-list>
+</md-card>
+
+<!-- Generate Fibonacci Sequence -->
+<md-card>
+<h2>Generate fibonacci sequence</h2>
+<md-grid-list cols="12" rowHeight="80px">
+    <md-grid-tile [colspan]="10">
+      <md-form-field>
+        <input type="number" mdInput placeholder="Enter Number" [(ngModel)]="fibonacciText" required>
+      </md-form-field>
+      <p *ngIf="fibonacci" class="success">{{fibonacci}}</p>
+    </md-grid-tile>
+    <md-grid-tile [colspan]="2">
+      <button md-raised-button color="primary" (click)="generateFibonacci()">Submit</button>
+    </md-grid-tile>
+  </md-grid-list>
+</md-card>

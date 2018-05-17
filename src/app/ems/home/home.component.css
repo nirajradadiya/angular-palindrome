@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.success{
+	margin-top: 10px;
+	background-color: #c5fdc7;
+    border: 1px solid #67d26b;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+md-form-field {
+  width: 100%;
+}
+
+md-card {
+	margin: 20px 0px;
+}
