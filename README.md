@@ -9,4 +9,4 @@ Type this command on your terminal:
 
 ## screenshot
 
-<img src="https://github.com/nirajradadiya/angular-palindrome/blob/master/AngularDemo.png" width="500"/>
+<img src="https://github.com/nirajradadiya/angular-palindrome/blob/master/AngularDemo.png" />
